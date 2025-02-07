@@ -11,7 +11,7 @@ private:
 	int TableSize;//հեշ աղյուսակի չափ
 	Node<V, K>** m_table;//Node տիպի ցուցիչների զանգված
 	int count_of_elements;//աղյուսակի էլեմենտների քանակ
-	float load_factor;//բնութագրիչ մեծություն
+	float load_factor;//բնութագրիչ մեծությունը
 
 public:
 	HashTable(int size = 100);//պարամետրիզացված կոնստրուկտոր որ անհրաժեշտ չափի
